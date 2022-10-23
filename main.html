@@ -1,36 +1,41 @@
 <html>
     <head>
     <link rel="stylesheet" href="/style.css"/>
+    <script src="index.js" defer></script>
     </head>
     <body>
-            <div class="Calculadora">
+        
+        <div data-previous-operand class="previous-operand"></div>
+        <div data-current-operand class="current-operand"></div>
+            
+            <div class="Calculadora" >
 
                 <input type="text" class="calculadoraDisplay" value="0" disabled />
 
                 <div class="calculadoraKeys">
-                    <button type="button" class="operador" value="+">+</button>
-                    <button type="button" class="operador" value="-">-</button>
-                    <button type="button" class="operador" value="*">&times</button>
-                    <button type="button" class="operador" value="/">&divide</button>
+                    <button type="button" class="operador" class="data-operator" value="+">+</button>
+                    <button type="button" class="operador" class="data-operator" value="-">-</button>
+                    <button type="button" class="operador" class="data-operator" value="*">&times</button>
+                    <button type="button" class="operador" class="data-operator" value="/">&divide</button>
 
-                    <button type="button" value="7">7</button>
-                    <button type="button" value="8">8</button>
-                    <button type="button" value="9">9</button>
+                    <button type="button" class="data-number" value="7">7</button>
+                    <button type="button" class="data-number" value="8">8</button>
+                    <button type="button" class="data-number" value="9">9</button>
                     
-                    <button type="button" value="4">4</button>
-                    <button type="button" value="5">5</button>
-                    <button type="button" value="6">6</button>
+                    <button type="button" class="data-number" value="4">4</button>
+                    <button type="button" class="data-number" value="5">5</button>
+                    <button type="button" class="data-number" value="6">6</button>
 
-                    
-                    <button type="button" value="1">1</button>
-                    <button type="button" value="2">2</button>
-                    <button type="button" value="3">3</button>
 
-                    <button type="button" value="0">0</button>
-                    <button type="button" class="decimal" value=".">.</button>
-                    <button type="button" class="all-clear" value="all-clear">AC</button>
+                    <button type="button" class="data-number" value="1">1</button>
+                    <button type="button" class="data-number" value="2">2</button>
+                    <button type="button" class="data-number" value="3">3</button>
 
-                    <button type="button" class="equal-sign" value="=">=</button>
+                    <button type="button" class="data-number" value="0">0</button>
+                    <button type="button" class="decimal" class="data-number" value=".">.</button>
+                    <button type="button" class="all-clear" class="data-all-clear" value="all-clear">AC</button>
+
+                    <button type="button" class="equal-sign" class="data-equal" value="=">=</button>
                
                 </div>
             </div>
