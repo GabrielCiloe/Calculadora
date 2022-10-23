@@ -1,0 +1,23 @@
+Como fazer a calculadora?
+
+Primeiro: Fazer a entrada de Dados
+- Colocar todas as operações necessarias
+- Colocar as saidas.
+- Necessario definir o tipo de saida de resultado. = Int, Float.
+
+definir variaveis de entrada de dados = var1; var2; 
+definir os operadores aritimeticos = +; -; /; *; %;
+definir as variaveis de resultado = varResult = 0 ();
+definir as if; if else; else;
+Transformar com o html e css o javascript de forma visual para o usuario.
+
+(Pré-requisitos
+Antes de começar o tutorial, certifique-se que tenha um bom domínio de JavaScript. No mínimo, você precisa conhecer:
+
+Instruções if/else (texto explicativo em inglês)
+Laços for (texto explicativo em inglês)
+Funções em JavaScript (texto explicativo em inglês)
+Arrow functions (texto explicativo em inglês)
+&& e || operadores
+Como alterar o texto com a propriedade textContent
+Como adicionar eventListeners com o padrão de delegação de evento.)
